@@ -1,0 +1,279 @@
+{
+  "model_name": "Iris Decision Tree Classifier",
+  "model_type": "decision_tree_classifier",
+  "version": "1.0",
+  "input_features": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "class_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "root_node": 0,
+  "nodes": [
+    {
+      "id": 0,
+      "is_leaf": false,
+      "feature_index": 2,
+      "feature_name": "petal length (cm)",
+      "threshold": 2.449999988079071,
+      "left_child": 1,
+      "right_child": 2,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 1,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        1,
+        0,
+        0
+      ],
+      "probabilities": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 2,
+      "is_leaf": false,
+      "feature_index": 3,
+      "feature_name": "petal width (cm)",
+      "threshold": 1.6500000357627869,
+      "left_child": 3,
+      "right_child": 8,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 3,
+      "is_leaf": false,
+      "feature_index": 2,
+      "feature_name": "petal length (cm)",
+      "threshold": 4.950000047683716,
+      "left_child": 4,
+      "right_child": 5,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 4,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        0,
+        1,
+        0
+      ],
+      "probabilities": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "predicted_class_index": 1
+    },
+    {
+      "id": 5,
+      "is_leaf": false,
+      "feature_index": 0,
+      "feature_name": "sepal length (cm)",
+      "threshold": 6.150000095367432,
+      "left_child": 6,
+      "right_child": 7,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 6,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 7,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        0,
+        0,
+        1
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "predicted_class_index": 2
+    },
+    {
+      "id": 8,
+      "is_leaf": false,
+      "feature_index": 2,
+      "feature_name": "petal length (cm)",
+      "threshold": 4.8500001430511475,
+      "left_child": 9,
+      "right_child": 12,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 9,
+      "is_leaf": false,
+      "feature_index": 1,
+      "feature_name": "sepal width (cm)",
+      "threshold": 3.0,
+      "left_child": 10,
+      "right_child": 11,
+      "class_counts": [
+        0,
+        0,
+        0
+      ],
+      "probabilities": [
+        0,
+        0,
+        0
+      ],
+      "predicted_class_index": 0
+    },
+    {
+      "id": 10,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        0,
+        0,
+        1
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "predicted_class_index": 2
+    },
+    {
+      "id": 11,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        0,
+        1,
+        0
+      ],
+      "probabilities": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "predicted_class_index": 1
+    },
+    {
+      "id": 12,
+      "is_leaf": true,
+      "feature_index": null,
+      "feature_name": null,
+      "threshold": null,
+      "left_child": null,
+      "right_child": null,
+      "class_counts": [
+        0,
+        0,
+        1
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "predicted_class_index": 2
+    }
+  ]
+}

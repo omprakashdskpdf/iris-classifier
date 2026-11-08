@@ -1,0 +1,51 @@
+{
+  "title": "Iris Species Classifier",
+  "description": "A sample multiclass classification app using a JSON-serialized decision tree trained on the classic Iris dataset.",
+  "features": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "feature_labels": [
+    "Sepal length (cm)",
+    "Sepal width (cm)",
+    "Petal length (cm)",
+    "Petal width (cm)"
+  ],
+  "feature_ranges": [
+    {
+      "min": 4.0,
+      "max": 8.0,
+      "default": 5.1,
+      "step": 0.1
+    },
+    {
+      "min": 2.0,
+      "max": 4.5,
+      "default": 3.5,
+      "step": 0.1
+    },
+    {
+      "min": 1.0,
+      "max": 7.0,
+      "default": 1.4,
+      "step": 0.1
+    },
+    {
+      "min": 0.0,
+      "max": 2.5,
+      "default": 0.2,
+      "step": 0.1
+    }
+  ],
+  "class_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "test_accuracy": 0.9333,
+  "test_size": 30,
+  "random_state": 42,
+  "algorithm": "DecisionTreeClassifier(max_depth=4)"
+}
